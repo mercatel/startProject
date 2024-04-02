@@ -1,0 +1,31 @@
+//LOGIN Form
+.login {
+  margin: auto;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+
+  .form {
+    padding: 5%;
+    margin: 5% auto;
+    width: 450px;
+
+    .error-messages {
+      min-height: 50px;
+
+      .help {
+        color: gray;
+        font-size: 1.4vh;
+        text-align: center;
+      }
+
+      .error {
+        color: red;
+      }
+
+    }
+
+    .v-icon{
+      cursor: pointer;
+    }
+  }
+}
